@@ -1,0 +1,20 @@
+/* GENERAL STYLES */
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--sonic-silver-color);
+
+    background-color: var(--white-color);
+}
+
+button {
+    cursor: pointer;
+
+    font-family: inherit;
+}
+
+address {
+    font-style: normal;
+}
