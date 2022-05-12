@@ -7,59 +7,59 @@
         <title>Портфолио</title>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
         <!-- HEADER -->
         <header class="header">
-        <div class="container">
+            <div class="container">
                 <!-- LOGO HEADER -->
-                <div class="logo-header">
-                    <a href="./index.html" lang="en" class="logo-common-part">Web<span class="logo-header-part">Studio</span>
+                <div class="logo header__logo">
+                    <a href="./index.html" lang="en" class="logo__common">Web<span class="logo__header">Studio</span>
                     </a>
                 </div>
                 <!-- MENU NAV -->
-                <nav class="nav">
-                    <ul class="nav list">
-                        <li class="nav-item">
-                            <a href="./index.html" class="nav-link">Студия</a>
+                <nav class="nav nav--margined">
+                    <ul class="nav__list list">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">Студия</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+                        <li class="nav__item">
+                            <a href="./portfolio.html" class="nav__link nav__link--current">Портфолио</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Контакты</a>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
                 <!-- CONTACTS -->
                 <div class="contacts">
-                    <ul class="contacts list">
-                        <li class="contacts-item">
-                            <a href="mailto:info@devstudio.com" lang="en" class="contacts-link">
-                                <svg width="16" height="12" class="contacts-icon">
+                    <ul class="contacts__list list">
+                        <li class="contacts__item">
+                            <a href="mailto:info@devstudio.com" lang="en" class="contacts__link">
+                                <svg width="16" height="12" class="contacts__icon">
                                     <use href="./images/icons.svg#icon-mail">
                                     </use>
                                 </svg>
-                                <p class="contacts-text">
+                                <p class="contacts__text">
                                     info@devstudio.com
                                 </p>
                             </a>
                         </li>
-                        <li class="contacts-item">
-                            <a href="tel:+380961111111" class="contacts-link">
-                                <svg width="10" height="16" class="contacts-icon">
+                        <li class="contacts__item">
+                            <a href="tel:+380961111111" class="contacts__link">
+                                <svg width="10" height="16" class="contacts__icon">
                                     <use href="./images/icons.svg#icon-phone">
                                     </use>
                                 </svg>
-                                <p class="contacts-text">
+                                <p class="contacts__text">
                                     +38 096 111 11 11
                                 </p>
                             </a>
                         </li>
                     </ul>
                 </div>
-        </div> 
+         </div> 
         </header>
         <!-- MAIN -->
         <main>
@@ -70,19 +70,20 @@
                     <!-- FILTER -->
                     <ul class="list filter">
                         <li class="item filter">
-                            <button type="button" class="button filter">Все</button>
+                            <button type="button" class="
+                            filter__btn">Все</button>
                         </li>
                         <li class="item filter">
-                            <button type="button" class="button filter">Веб-сайты</button>
+                            <button type="button" class="filter__btn">Веб-сайты</button>
                         </li>
                         <li class="item filter">
-                            <button type="button" class="button filter">Приложения</button>
+                            <button type="button" class="filter__btn">Приложения</button>
                         </li>
                         <li class="item filter">
-                            <button type="button" class="button filter">Дизайн</button>
+                            <button type="button" class="filter__btn">Дизайн</button>
                         </li>
                         <li class="item filter">
-                            <button type="button" class="button filter">Маркетинг</button>
+                            <button type="button" class="filter__btn">Маркетинг</button>
                         </li>
                     </ul>
                     <!-- PROJECTS -->
@@ -219,62 +220,62 @@
             </section>
         </main>
         <!-- FOOTER -->
-        <footer class="footer">
+        <footer class="footer footer--margined">
             <div class="footer-container container">
-                <div class="footer-contacts">
-                    <a href="./index.html" lang="en" class="logo-common-part">Web<span class="logo-footer-part">Studio</span>
+                <div class="footer__contacts">
+                    <a href="./index.html" lang="en" class="footer__logo logo__common logo">Web<span class="logo__footer">Studio</span>
                     </a>
                     <address class="address">
-                        <ul class="list">
-                            <li class="item address">
+                        <ul class="address__list list">
+                            <li class="address__item">
                                 <a href="https://www.google.com/maps/place/50%C2%B025'36.3%22N+30%C2%B032'18.1%22E/@50.42675,30.5361724,17z" 
-                                class="footer-address"
+                                class="address__link"
                                 target="_blank"
                                 rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26
                                 </a>
                             </li>
-                            <li class="item address">
-                                <a href="mailto:info@example.com" class="footer-address-contacts">info@example.com
+                            <li class="address__item">
+                                <a href="mailto:info@example.com" class="address__link-contact">info@example.com
                                 </a>
                             </li>
-                            <li class="item address">
-                                <a href="tel:+380991111111" class="footer-address-contacts">+38 099 111 11 11
+                            <li class="address__item">
+                                <a href="tel:+380991111111" class="address__link-contact">+38 099 111 11 11
                                 </a>
                             </li>
                         </ul>
                     </address>
                 </div>
-                <div class="social-footer">
-                    <p class="social-text">присоединяйтесь</p>
+                <div class="footer__social">
+                    <p class="footer__text">присоединяйтесь</p>
                     <!-- SOCIAL WEBS -->
-                    <ul class="social-list">
-                        <li class="social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="social-link">
-                                <svg class="social-icon">
+                    <ul class="social__list list">
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
                                     <use href="./images/icons.svg#icon-instagram">
                                     </use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="social-link">
-                                <svg class="social-icon">
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
                                     <use href="./images/icons.svg#icon-twitter">
                                     </use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="social-link">
-                                <svg class="social-icon">
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
                                     <use href="./images/icons.svg#icon-facebook">
                                     </use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="social-item">
-                            <a href="#" target="_blank" rel="noopener noreferrer" class="social-link">
-                                <svg class="social-icon">
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
                                     <use href="./images/icons.svg#icon-linkedin">
                                     </use>
                                 </svg>
@@ -282,13 +283,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="subscribe">
-                    <p class="social-text">Подпишитесь на рассылку</p>
-                    <form class="subscribe-form">
-                        <input type="email" name="mail" placeholder="E-mail" class="subscribe-input">
-                        <button type="submit" class="hero-btn subscribe-footer">
+                <div class="subscribe subscribe--margined">
+                    <p class="subscribe__text">Подпишитесь на рассылку</p>
+                    <form class="subscribe__form">
+                        <input type="email" name="mail" placeholder="E-mail" class="subscribe__input">
+                        <button type="submit" class="subscribe__btn button">
                             Подписаться
-                            <svg class="social-icon subscribe-icon">
+                            <svg class="subscribe__icon social__icon">
                                 <use href="./images/icons.svg#icon-telegram">
                                 </use>
                             </svg>
