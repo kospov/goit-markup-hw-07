@@ -1,10 +1,10 @@
 /* LOGO */
 
 .logo {
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
+    font-weight: $title-font-weight;
+    font-family: $logo-font-family;
     font-size: 26px;
-    line-height: 1.17;
+    line-height: $primary-line-height;
     text-decoration: none;
 
     &__common {

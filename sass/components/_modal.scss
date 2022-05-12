@@ -24,9 +24,7 @@
     top: 8px;
     right: 8px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex;
     width: 30px;
     height: 30px;
     margin-left: auto;
@@ -38,9 +36,7 @@
 }
 
 .modal__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex;
     width: 18px;    
     height: 18px;
 
@@ -57,7 +53,7 @@
 .modal__title {
     margin-bottom: 12px;
 
-    font-weight: 700;
+    font-weight: $title-font-weight;
     font-size: 20px;
     line-height: 1.15;
     text-align: center;

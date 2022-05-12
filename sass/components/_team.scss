@@ -7,9 +7,9 @@
 .team__title {
     margin-bottom: 50px;
 
-    font-weight: 700;
+    font-weight: $title-font-weight;
     font-size: 36px;
-    line-height: 1.17;
+    line-height: $primary-line-height;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: $primary-line-height;
     text-align: center;
 }
 

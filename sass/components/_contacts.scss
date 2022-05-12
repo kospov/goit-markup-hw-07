@@ -20,7 +20,7 @@
 
     color: $sonic-silver-color;
     font-weight: 500;
-    line-height: 1.17;
+    line-height: $primary-line-height;
     letter-spacing: 0.02em;
 
     transition: color $transition;

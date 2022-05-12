@@ -9,11 +9,9 @@
 }
 
 .features__icon-area {
-    display: flex;
+    @include centeredFlex;
     width: 270px;
     height: 120px;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
 
     background-color: $whisper-color;
@@ -24,9 +22,8 @@
     width: 270px;
     margin-bottom: 10px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
+    font-weight: $title-font-weight;
+    line-height: $primary-line-height;
     text-transform: uppercase;
 }
 

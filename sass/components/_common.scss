@@ -1,8 +1,8 @@
 /* GENERAL STYLES */
 
 body {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-size: $primary-font-size;
+    font-family: $primary-font-family;
     letter-spacing: 0.03em;
     color: $sonic-silver-color;
 
