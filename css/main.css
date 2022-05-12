@@ -572,7 +572,8 @@ address {
   width: 270px;
   margin-bottom: 10px;
   font-weight: 700;
-  line-height: 1.17;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -951,7 +952,7 @@ address {
   background: rgba(33, 150, 243, 0.9);
 }
 
-.title-portfolio {
+.project__info {
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
@@ -974,7 +975,6 @@ address {
 
 /* FOOTER */
 .footer {
-  min-width: 1600px;
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
