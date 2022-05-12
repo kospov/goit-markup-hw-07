@@ -1,13 +1,13 @@
 /* PROJECTS */
 
-.list.portfolio {
+.project__list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
 
-.item.portfolio {
+.project__item {
     margin-left: 30px;
     margin-top: 30px;
     width: calc(100% / 3 - 30px);
@@ -15,25 +15,30 @@
     border: 1px solid #eee;
 
     transition: box-shadow $transition;
+
+    &:hover, 
+    &:focus {
+        box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 4px 4px rgba(0,0,0,.06), 1px 4px 6px rgba(0,0,0,.16);
+    }
 }
 
-
-.item.portfolio:hover, 
-.item.portfolio:focus {
-    box-shadow: 0px 1px 1px rgba(0,0,0,.12), 0px 4px 4px rgba(0,0,0,.06), 1px 4px 6px rgba(0,0,0,.16);
-}
-
-.link.portfolio {
+.project__link {
     text-decoration: none;
 }
 
-.project-portfolio {
+.project__portfolio {
     position: relative;
 
     overflow: hidden;
 }
 
-.project.overlay {
+.project__image {
+    display: block;
+    width: 100%;
+    height: 294px;
+}
+
+.project__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -47,13 +52,13 @@
     transform: translateY(100%);
 
     transition: transform $transition;
+
+    .project__link:hover & {
+         transform: translateY(0);
+    }
 }
 
-.link.portfolio:hover .project.overlay {
-    transform: translateY(0);
-}
-
-.project-description {
+.project__description {
     position: absolute;
     top: 0;
     left: 0;
@@ -74,14 +79,6 @@
     background: rgba(33,150,243,.9);
 }
 
-
-
-.image-portfolio {
-    display: block;
-    width: 100%;
-    height: 294px;
-}
-
 .title-portfolio {
     padding-top: 20px;
     padding-right: 24px;
@@ -89,7 +86,7 @@
     padding-left: 24px;
 }
 
-.section-title.portfolio {
+.project__title {
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -98,7 +95,7 @@
     letter-spacing: 0.06em;
 }
 
-.text.portfolio {
+.project__text {
     font-size: 16px;
     line-height: 1.88;
     color: $section-title-color;

@@ -1,16 +1,16 @@
 /* FILTER */
 
-.list.filter {
+.filter__list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.item.filter:not(:last-child) {
+.filter__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.button.filter {
+.filter__btn {
     padding-top: 6px;
     padding-right: 22px;
     padding-bottom: 6px;
@@ -27,14 +27,14 @@
     border-radius: 4px;
 
     transition: color $transition, background-color $transition, border $transition, box-shadoW $transition;
-}
 
-.filter__btn:hover,
-.filter__btn:focus {
-    color: $white-color;
+    &:hover,
+    &:focus {
+        color: $white-color;
 
-    background-color: $accent-btn-color;
-    border: 1px solid $black-color;
-    box-shadow: 0px 3px 1px rgba(0,0,0,.1), 0px 1px 2px rgba(0,0,0,.08), 0px 2px 2px rgba(0,0,0,.12);
-    border-radius: 4px;
+        background-color: $accent-btn-color;
+        border: 1px solid $black-color;
+        box-shadow: 0px 3px 1px rgba(0,0,0,.1), 0px 1px 2px rgba(0,0,0,.08), 0px 2px 2px rgba(0,0,0,.12);
+        border-radius: 4px;
+    }
 }
